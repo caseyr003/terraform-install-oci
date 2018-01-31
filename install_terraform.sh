@@ -5,7 +5,7 @@ unzip $version -d ~/
 rm $version
 cd /usr/bin
 sudo ln -s $HOME/terraform terraform
-cd ~/terraform-oci-workshop
+cd ~/
 
 #Get OCI Plugin for Terraform
 wget "https://github.com/oracle/terraform-provider-oci/releases/download/v2.0.6/linux.tar.gz"
